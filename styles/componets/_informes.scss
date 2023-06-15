@@ -1,0 +1,27 @@
+@import '../abstract/variaveis';
+
+#img-pedra {
+    margin: 60px;
+    h4, p {
+        font-size: $tamanho-texto / 2.5;
+        color: $cor-secundaria;
+        font-weight: 400;
+        text-align: center;
+    }
+    h3 {
+        text-align: center;
+        color: $cor-primaria;
+        text-transform: uppercase;
+        font-size: $tamanho-texto / 2;
+        margin-bottom: 2px;
+        font-weight: bold;
+    }
+    .pedra {
+        padding-bottom: 1px;
+        display: flex;
+        justify-content: space-evenly;
+        img {
+            max-width: 100%;
+        }
+    }
+}
